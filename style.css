@@ -1,9 +1,32 @@
-.container{
+body{
+    background-color: black;
+
+}
+
+
+.headercontainer{
     text-align: center;
     background-color: black;
+    padding: 25px;
 }
 
 .logo{
     width: 200px;
     height: 200px;
+}
+
+nav{
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 30px;
+    padding: 20px;
 }
