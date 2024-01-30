@@ -1,8 +1,26 @@
+/* EVERY PAGE */
 body{
     background-color: black;
+    margin: 0;
+}
+
+.divider{
+    padding: 50px;
+}
+
+#footer {
+    padding: 20px;
+    text-align: center; 
+    background-color: #715D98;
+}
+
+.email{
+    color: #3B1F5A;
+    font-family: "Archivo Black", sans-serif;
 
 }
 
+/* HOMEPAGE */
 /* NAV BAR */
 .headercontainer{
     text-align: center;
@@ -16,8 +34,7 @@ body{
 }
 
 nav{
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -29,31 +46,134 @@ nav ul li a{
     font-family: "Archivo Black", sans-serif;
     color: white;
     font-size: 25px;
-    padding: 20px;
 }
+
 
 /* BANNER */
 .bannercontainer{
     justify-content: center;
+    text-align: center;
 }
 
 .banner{
     width: 100%;
-    height: 900px;
+    height: auto;
+    flex-wrap: wrap;
 }
 
-h1{
-    text-align: center;
+.about{
+    background-color: #715D98;
     color: white;
-
+    border-radius: 45px;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 40px;
+    font-family: "Archivo Black", sans-serif;
 }
 
-/* DIVIDERS */
-.divider{
+
+/* DAILY LOG IN */
+.textcontainer{
+    font-family: "Archivo Black", sans-serif;
+    color: white;
+}
+
+.dayscontainer{
+    background-color: #715D98;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.days{
+    width: 150px;
+    padding-bottom: 15px;
+    border-radius: 40px;
+}
+
+.logincontainer{
+    background-color: #715D98;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.claim{
+    width: 250px;
+    height: 125px;
+    font-size: 50px;
+    font-family: "Archivo Black", sans-serif;
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+}
+
+.claim:hover{
+    background-color:white;
+    color:#715D98;
     
 }
 
-/* PRODUCTS */
+@media only screen and (max-width: 768px) {
+    .logo {
+        width: 150px;
+        height: 150px;
+    }
+
+    nav ul li a {
+        font-size: 18px;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    button {
+        width: 200px;
+        height: 100px;
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a {
+        padding: 10px;
+    }
+
+    .banner {
+        height: auto;
+    }
+
+    .dayscontainer {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    button {
+        width: 150px;
+        height: 75px;
+        font-size: 18px;
+    }
+
+    .divider {
+        padding: 20px;
+    }
+}
+
+/* PRODUCTS PAGE */
 .cataloguecontainer{
     background-color: white;
     display: flex;
@@ -79,4 +199,23 @@ h1{
     font-family: Anton;
     padding-right: 10px;
     color: black;
+}
+
+/* ABOUT PAGE */
+.banner1container{
+    background-color:#A57DD6;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.logo1{
+    width: 300px;
+    height: 300px;
+}
+
+.slogan{
+    font-family: "Archivo Black", sans-serif;
+    color: #3B1F5A;
 }
