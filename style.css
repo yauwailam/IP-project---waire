@@ -5,7 +5,7 @@ body{
 }
 
 .divider{
-    padding: 50px;
+    padding: 10px;
 }
 
 #footer {
@@ -17,7 +17,13 @@ body{
 .email{
     color: #3B1F5A;
     font-family: "Archivo Black", sans-serif;
+}
 
+h1{
+    color: white;
+    font-family: "Archivo Black", sans-serif;
+    text-align: center;
+    font-size: 40px;
 }
 
 /* HOMEPAGE */
@@ -30,6 +36,7 @@ body{
 .logo{
     width: 200px;
     height: 200px;
+    padding-top: 20px
 }
 
 nav{
@@ -51,7 +58,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color: #715D98;
+    color: #A77FD5;
     font-size: 28px;
 }
 
@@ -66,6 +73,7 @@ nav ul li a:hover{
     background-size: cover;
     height: 700px;
     width:100%;
+    padding-top: 10px;
 }
 
 .motto1{
@@ -73,7 +81,7 @@ nav ul li a:hover{
     color: #3B1F5A;
     position: relative;
     font-size: 100px;
-    top: 10rem;
+    top: 3rem;
 }
 
 .motto2{
@@ -81,7 +89,7 @@ nav ul li a:hover{
     color: #3B1F5A;
     position: relative;
     font-size: 100px;
-    top: 1rem;
+    top: -6rem;
 }
 
 .motto3{
@@ -89,14 +97,14 @@ nav ul li a:hover{
     color:#715D98;
     position: relative;
     font-size: 35px;
-    top: 6rem;
+    top: -1rem;
 
 }
 
 .about{
     position: relative;
-    top: 2rem;
-    background-color: #715D98;
+    top: -3rem;
+    background-color: #A77FD5;
     color: white;
     border-radius: 45px;
     padding: 20px;
@@ -119,10 +127,10 @@ nav ul li a:hover{
 }
 
 .dayscontainer{
-    background-color: #715D98;
+    background-color: #A77FD5;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -130,11 +138,11 @@ nav ul li a:hover{
 .days{
     width: 150px;
     padding-bottom: 15px;
-    border-radius: 40px;
+    border-radius: 45px;
 }
 
 .logincontainer{
-    background-color: #715D98;
+    background-color: #A77FD5;
     text-align: center;
     padding-bottom: 50px;
 }
