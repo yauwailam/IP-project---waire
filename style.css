@@ -11,11 +11,31 @@ body{
 #footer {
     padding: 20px;
     text-align: center; 
-    background-color: #715D98;
+    background-color: black;
+}
+
+.emailcontainer{
+    color: #A57DD6;
+    font-family: "Archivo Black", sans-serif;
 }
 
 .email{
     color: #3B1F5A;
+    font-family: "Archivo Black", sans-serif;
+    border-radius: 45px;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.emailenter{
+    background-color: #715D98;
+    color: white;
+    border-radius: 45px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
     font-family: "Archivo Black", sans-serif;
 }
 
@@ -163,6 +183,18 @@ nav ul li a:hover{
     
 }
 
+.giveawaybanner{
+    background: url("eventbanner.jpg");
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width:100%;
+    padding-top: 10px;
+}
+
 @media only screen and (max-width: 768px) {
     .logo {
         width: 150px;
@@ -222,7 +254,7 @@ nav ul li a:hover{
 
 /* PRODUCTS PAGE */
 .cataloguecontainer{
-    background-color: white;
+    background-color: #A57DD6;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -231,14 +263,14 @@ nav ul li a:hover{
 }
 
 .product {
-    width: 380px;
-    height: 380px;
+    width: 400px;
+    height: 500px;
     cursor: pointer;
-
+    padding-bottom: 50px;
 }
 
 .product:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .productinfo{
