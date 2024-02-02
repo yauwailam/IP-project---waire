@@ -6,23 +6,29 @@
   align-items: center;
   background: url("giveawaybanner.jpg") no-repeat;
   background-size: cover;
+  margin: 0;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 .wrapper {
   width: 420px;
   height: 550px;
-  background: #715d98;
+  background: #a67fd3;
   border-radius: 10px;
-  padding: 30px 40px;
+  padding: 0px 40px;
+  box-sizing: border-box;
 }
 
-.logo1 {
-  text-align: center;
-  align-items: center;
-}
 .wrapper img {
-  height: 200px;
-  width: 200px;
+  height: 180px;
+  width: 180px;
 }
 .wrapper h1 {
   font-size: 36px;
@@ -32,18 +38,19 @@
 .wrapper .input-box {
   width: 100%;
   height: 50px;
-  margin: 30px 0;
+  margin: 15px 0;
 }
 
 .input-box input {
+  justify-content: end;
   width: 100%;
   height: 100%;
   background: none;
-  border: none;
   outline: none;
   border: 2px solid rgba(255, 255, 255, 0.2);
   border-radius: 40px;
   padding: 20px 35px 20px 20px;
+  box-sizing: border-box;
 }
 
 .input-box input ::placeholder {
@@ -78,22 +85,13 @@
   text-decoration: underline;
 }
 
-/* body {
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: url("loginbg.jpg") no-repeat;
-  background-size: cover;
-} */
-
 .wrapper1 {
   width: 420px;
   height: 550px;
-  background: #715d98;
+  background: #a77fd5;
   border-radius: 10px;
-  padding: 30px 40px;
+  padding: 0px 40px;
+  box-sizing: border-box;
 }
 
 .logo1 {
@@ -101,8 +99,8 @@
   align-items: center;
 }
 .wrapper1 img {
-  height: 200px;
-  width: 200px;
+  height: 180px;
+  width: 180px;
 }
 .wrapper1 h1 {
   font-size: 36px;
@@ -112,19 +110,19 @@
 .wrapper1 .input-box1 {
   width: 100%;
   height: 50px;
-  margin: 5% 0;
+  margin: 10px 0;
 }
 
 .input-box1 input {
   width: 100%;
   height: 100%;
   background: none;
-  border: none;
   outline: none;
   border: 2px solid rgba(255, 255, 255, 0.2);
   border-radius: 40px;
   padding: 20px 35px 20px 20px;
   color: aliceblue;
+  box-sizing: border-box;
 }
 
 .input-box1 input ::placeholder {
@@ -145,13 +143,10 @@
 }
 
 /* EVERY PAGE */
-body {
-  background-color: black;
-  margin: 0;
-}
 
 .divider {
   padding: 10px;
+  background-color: #000000;
 }
 
 #footer {
@@ -197,6 +192,7 @@ h1 {
 .headercontainer {
   text-align: center;
   background-color: black;
+  height: 300px;
 }
 
 .logo {
@@ -284,6 +280,7 @@ nav ul li a:hover {
 }
 
 /* DAILY LOG IN */
+
 .textcontainer {
   font-family: "Archivo Black", sans-serif;
   color: white;
