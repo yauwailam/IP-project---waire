@@ -1,3 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Archivo Black", sans-serif;
+  color: white;
+}
+
 .loginpg {
   width: 100%;
   min-height: 100vh;
@@ -78,7 +86,7 @@
   text-decoration: underline;
 }
 
-/* body {
+body {
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -86,7 +94,7 @@
   align-items: center;
   background: url("loginbg.jpg") no-repeat;
   background-size: cover;
-} */
+}
 
 .wrapper1 {
   width: 420px;
@@ -326,7 +334,7 @@ nav ul li a:hover {
 }
 
 .giveawaybanner {
-  background: url("1.jpg");
+  background: url("eventbanner.jpg");
   justify-content: center;
   text-align: center;
   flex-wrap: wrap;
@@ -338,10 +346,10 @@ nav ul li a:hover {
 }
 
 @media only screen and (max-width: 768px) {
-  /* .logo {
+  .logo {
     width: 150px;
     height: 150px;
-  } */
+  }
 
   nav ul li a {
     font-size: 18px;
@@ -352,11 +360,11 @@ nav ul li a:hover {
     font-size: 24px;
   }
 
-  /* button {
+  button {
     width: 200px;
     height: 100px;
     font-size: 24px;
-  } */
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -374,9 +382,9 @@ nav ul li a:hover {
     padding: 10px;
   }
 
-  /* .banner {
+  .banner {
     height: auto;
-  } */
+  }
 
   .dayscontainer {
     padding-top: 20px;
@@ -392,22 +400,6 @@ nav ul li a:hover {
   .divider {
     padding: 20px;
   }
-}
-
-.dreamy {
-  font-family: "Archivo Black", sans-serif;
-  color: #3b1f5a;
-  position: relative;
-  font-size: 80px;
-  top: 10rem;
-}
-
-.giveaway {
-  font-family: "Archivo Black", sans-serif;
-  color: #3b1f5a;
-  position: relative;
-  font-size: 80px;
-  top: 10rem;
 }
 
 /* PRODUCTS PAGE */
@@ -447,7 +439,7 @@ nav ul li a:hover {
   padding-top: 25px;
 }
 
-.logo1 {
+.logo {
   width: 300px;
   height: 300px;
 }
