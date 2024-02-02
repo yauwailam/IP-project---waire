@@ -184,7 +184,7 @@ nav ul li a:hover{
 }
 
 .giveawaybanner{
-    background: url("eventbanner.jpg");
+    background: url("1.jpg");
     justify-content: center;
     text-align: center;
     flex-wrap: wrap;
@@ -195,61 +195,21 @@ nav ul li a:hover{
     padding-top: 10px;
 }
 
-@media only screen and (max-width: 768px) {
-    .logo {
-        width: 150px;
-        height: 150px;
-    }
-
-    nav ul li a {
-        font-size: 18px;
-        padding: 15px;
-    }
-
-    h1 {
-        font-size: 24px;
-    }
-
-    button {
-        width: 200px;
-        height: 100px;
-        font-size: 24px;
-    }
+.dreamy{
+    font-family: "Archivo Black", sans-serif;
+    color: #3B1F5A;
+    position: relative;
+    font-size: 80px;
+    top: 10rem;
 }
 
-@media only screen and (max-width: 480px) {
-    nav {
-        flex-direction: column;
-        text-align: center;
-    }
+.giveaway{
+    font-family: "Archivo Black", sans-serif;
+    color: #3B1F5A;
+    position: relative;
+    font-size: 80px;
+    top: 10rem;
 
-    nav ul li {
-        display: block;
-        margin-bottom: 10px;
-    }
-
-    nav ul li a {
-        padding: 10px;
-    }
-
-    .banner {
-        height: auto;
-    }
-
-    .dayscontainer {
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-
-    button {
-        width: 150px;
-        height: 75px;
-        font-size: 18px;
-    }
-
-    .divider {
-        padding: 20px;
-    }
 }
 
 /* PRODUCTS PAGE */
