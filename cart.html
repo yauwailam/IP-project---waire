@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
-<body>
+<body class="pages" >
     <div class="headercontainer">
         <img src="logo.png" class="logo">
         <nav>
@@ -21,6 +21,17 @@
                 <li><a href="cart.html">Cart</a></li>
             </ul>
         </nav>
+    </div>
+    <div class="cartcontainer">
+        <div id="root"></div>
+        <div class="sidebar">
+            <div class="head"><p>My Cart</p></div>
+            <div class="cartITEM"> Your cart is empty</div>
+            <div class="foot">
+                <h3>Total</h3>
+                <h2 id="total">$ 0.00</h2>
+            </div>
+        </div>
     </div>
 </body>
 </html>
