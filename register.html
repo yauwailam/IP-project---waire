@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </head>
 <body class="loginpg">
     <div class="wrapper1">
@@ -15,24 +16,31 @@
                 <img src="logo1.png">
             </div>
             <h1>Sign up</h1>
-            <div class="input-box1">
-                <input type="text" placeholder="Username" required>
+            <div class="input-box1" >
+                <input id="user" type="text" placeholder="Username" required>
                     
             </div>
-            <div class="input-box1">
-                <input type="password" placeholder="Password" required>
+            <div id="tryagn">
+                <span>password missmatched</span>
+            </div>
+            <div class="input-box1" >
+                <input id="password"typ e="text" placeholder="Password" required>
                     
             </div>
-            <div class="input-box1">
-                <input type="password" placeholder="Confirm Password" required>
+            <div class="input-box1" >
+                <input id="passwordconfirmation" type="text" placeholder="Confirm Password" required>
                     
             </div>
         </form>
+        
         <a href="index.html">
-            <button type ="submit" class="btn1">Sign up</button>
+            <button id="sgnup" type ="submit" class="btn1">Sign up</button>
         </a>
 
         
     </div>
+
+    
+    <script src="signup.js"></script> 
 </body>
 </html>
