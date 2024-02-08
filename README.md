@@ -6,17 +6,17 @@ This is our website for our Intergrated Studio Project. This is an eCommerce Fas
 
 **Design Process**
 
-The theme of this website is purple, 
+The theme of this website is majority purple as it is our branding colour that allows it to be easily recognisable to users. Our branding i
 
 The main audience for our website are users who are passionate about fashion, new users who are discovering the website, and users who are interested in the benefits and gamification aspects of the website.
 
-For those passionate about fashion, they are able to achieve their goal of buying clothes that suit their style as well as explore other aesthetics. For those who are new to the website, they are able to achieve their goal of discovering how to use the website and hopefully continue to use it. For those who are interested
+For those passionate about fashion, they are able to achieve their goal of buying clothes that suit their style as well as explore other aesthetics. For those who are new to the website, they are able to achieve their goal of discovering how to use the website and hopefully continue to use it. For those who are interested in the gamification aspects, they can achieve their goal by visiting the events page where games and leaderboards are held at. Those who are here for the rewards can visit the rewards page to achieve their goal of earning points and vouchers.
 
-
+As a u
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 
+This is our app prototype which this website took a lot of inspiration from : https://www.figma.com/file/QiWsULG3pt4TB2F6YDHgsS/AD_WaireClothes_Prototype?type=design&node-id=0%3A1&mode=design&t=ZmCG62XtvNoX2QGU-1
 As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory) Include the Adobe XD wireframe as a folder. You can include the XD share url.
 
 **Existing Features**
 
@@ -35,13 +35,7 @@ Most of the features on the mobile app can be found on the website aswell. Howev
 Another feature we wanted to add was
 
 **Technologies Used**
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-**JQuery**
-The project uses JQuery to simplify DOM manipulation.
-Testing
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+-RestDB [https://restdb.io/](https://restdb.io/login/?redirect=https://login-46a7.restdb.io/home/db/65af4ad7bc765448000001db/cards/65af4cfbbc765448000001f1/)  used to store the users data like their username password and email
 
 **Contact form:**
 
