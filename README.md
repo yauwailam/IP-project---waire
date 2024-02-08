@@ -7,6 +7,8 @@ This is our website for our Intergrated Studio Project. This is an eCommerce Fas
 The theme of this website is purple, 
 
 The main audience for our website are users who are passionate about fashion, new users who are discovering the website, and users who are interested in the benefits and gamification aspects of the website.
+
+For those passionate about fashion, they are able to achieve their goal of buying clothes that suit their style as well as explore other aesthetics. For those who are new to the website, they are able to achieve their goal of discovering how to use the website and hopefully continue to use it. For t
 Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
