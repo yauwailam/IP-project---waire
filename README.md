@@ -31,7 +31,6 @@ Announcement - allows users to be updated and alerted of any announcements at th
 
 Most of the features on the mobile app can be found on the website aswell. However, some features did not make the cut due to time constraint. One feature we would wish to implement is the game 'Fashion Frenzy' that is playable on the mobile app. It is a competition game that allows users to create outfits and submit them in order to win prizes and be top of the leaderboard.
 
-Another feature we wanted to add was
 
 **Technologies Used**
 -RestDB [https://restdb.io/](https://restdb.io/login/?redirect=https://login-46a7.restdb.io/home/db/65af4ad7bc765448000001db/cards/65af4cfbbc765448000001f1/)  used to store the users data like their username password and email
@@ -50,12 +49,10 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-**Credits**
-Credits to Shopee for inspiring us with some features like the daily log in.
 
 **Media**
 
 The photos used in this site were obtained from Shopee, Shein, Taobao, Pinterest, Canva, and Google. None of these images belong to us, however they were editted in Photoshop in order to remove their backgrounds.
 
-**Acknowledgements**
-I received inspiration for this project from 
+**Acknowledgements and Credits**
+I received inspiration for this project from shopping platforms like Shopee and Shein.
