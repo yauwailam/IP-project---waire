@@ -214,6 +214,14 @@ h2{
   font-size: 30px;
 }
 
+h4{
+  color: white;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+
 @media only screen and (max-width: 768px) {
   .emailenter {
     font-size: 15px;
@@ -323,6 +331,8 @@ nav ul li a:hover {
   background-color: #3b1f5a;
   font-size: 35px;
 }
+
+
 
 @media only screen and (max-width: 768px) {
   .bannercontainer {
@@ -488,7 +498,6 @@ nav ul li a:hover {
   }
 }
 
-
 /* EVENTS PAGE */
 .eventscontainer{
   background-color: #a77fd5;
@@ -509,12 +518,23 @@ nav ul li a:hover {
 }
 
 .event1text{
-  text-align: right;
   position: relative;
   top:1em;
-  right: 3em;
+  left: 11.5em;
   font-size: 50px;
+  font-family: "Archivo Black", sans-serif;
+  color: white;
 }
+
+.event1text1{
+  position: relative;
+  top:3em;
+  left: 7em;
+  font-size: 50px;
+  font-family: "Archivo Black", sans-serif;
+  color: white;
+}
+
 
 .event2{
   background-image: url('events/event2.png');
@@ -530,8 +550,20 @@ nav ul li a:hover {
   text-align: left;
   position: relative;
   top:1em;
-  left: 3em;
+  right: 6.5em;
   font-size: 50px;
+  font-family: "Archivo Black", sans-serif;
+  color: white;
+}
+
+.event2text1{
+  text-align: left;
+  position: relative;
+  top:3em;
+  right: 11.5em;
+  font-size: 50px;
+  font-family: "Archivo Black", sans-serif;
+  color: white;
 }
 
 .event3{
@@ -544,17 +576,150 @@ nav ul li a:hover {
 }
 
 .event3text{
-  text-align: center;
   position: relative;
   top:1em;
+  left: 7em;
   font-size: 50px;
+  font-family: "Archivo Black", sans-serif;
+  color: white;
 }
+  
 
 .event3text1{
   text-align: center;
   position: relative;
-  top:7em;
+  top:8.5em;
+  right: 3em;
   font-size: 50px;
+  font-family: "Archivo Black", sans-serif;
+  color: white;
+}
+
+/* GAME PAGE */
+.gamecontainer{
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  background: url("events/event1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.game1{
+text-align: right;
+position: relative;
+top:1em;
+right: 1.5em;
+font-size: 50px;
+font-family: "Archivo Black", sans-serif;
+color: white;
+}
+
+.game2{
+text-align: right;
+position: relative;
+top:1em;
+right: 1.5em;
+font-size: 50px;
+font-family: "Archivo Black", sans-serif;
+color: white;
+}
+
+.instructionscontainer{
+  background-color: #a77fd5;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.instructions{
+  color: black;
+  padding-bottom: 15px;
+}
+
+/* GIVEAWAY PAGE */
+.giveawaycontainer{
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    background: url("events/event2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.giveaway1{
+  text-align: left;
+  position: relative;
+  top:1em;
+  left: 1em;
+  font-size: 50px;
+  font-family: "Archivo Black", sans-serif;
+  color: white;
+}
+
+.giveaway2{
+  text-align: left;
+  position: relative;
+  top:1em;
+  left: 1em;
+  font-size: 50px;
+  font-family: "Archivo Black", sans-serif;
+  color: white;
+}
+
+
+.ticket{
+  background-color: #A77FD5;
+  justify-content: center;
+  text-align: center;
+  width: 400px;
+  position: relative;
+  top: 3em;
+  left: 35em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 40px;
+}
+
+/* LEADERBOARD PAGE */
+.leaderboardcontainer{
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  background: url("events/event3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.leaderboard1{
+  position: relative;
+  font-size: 50px;
+  font-family: "Archivo Black", sans-serif;
+  color: white;
+}
+
+.leaderboard2{
+  position: relative;
+  top: 8em;
+  font-size: 50px;
+  font-family: "Archivo Black", sans-serif;
+  color: white;
+}
+
+.resultscontainer{
+  background-color: #a77fd5;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  text-align: center;
 }
 
 /* PRODUCTS PAGE */
@@ -666,6 +831,7 @@ nav ul li a:hover {
   padding-right: 40px;
 }
 
+/* LOYALTY PAGE */
 .tiercontainer {
   justify-content: center;
   text-align: center;
