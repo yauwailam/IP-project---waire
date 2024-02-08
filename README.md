@@ -5,6 +5,8 @@ This is our website for our Intergrated Studio Project. This is an eCommerce Fas
 **Design Process**
 
 The theme of this website is purple, 
+
+The website is targetting to users who are interested in fashion
 Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
@@ -15,16 +17,18 @@ This section is also where you would share links to any wireframes, mockups, dia
 **Existing Features**
 
 Log In and Sign Up Feature - allows users to create an account by entering their username and password, and log into their account by entering their exisiting username and pasword.
+
 Nav Bar - allows users to interchange between pages easier by clicking the pages they want to go to at the top of the page.
+
 Daily Log In Feature - allows users to view their streak and earn points by claiming and logging in daily.
+
 Announcement - allows users to be updated and alerted of any announcements at the annoucments section in the homepage.
 
 **Features Left to Implement**
 
 Most of the features on the mobile app can be found on the website aswell. However, some features did not make the cut due to time constraint. One feature we would wish to implement is the game 'Fashion Frenzy' that is playable on the mobile app. It is a competition game that allows users to create outfits and submit them in order to win prizes and be top of the leaderboard.
-Another feature we wanted to add was
 
-**Another feature idea**
+Another feature we wanted to add was
 
 **Technologies Used**
 
@@ -52,12 +56,9 @@ If this section grows too long, you may want to split it off into a separate fil
 **Credits**
 Credits to Shopee for inspiring us with some features like the daily log in.
 
-**Content**
-The text for section Y was copied from the Wikipedia article Z
-
 **Media**
 
 The photos used in this site were obtained from Shopee, Shein, Taobao, Pinterest, Canva, and Google. None of these images belong to us, however they were editted in Photoshop in order to remove their backgrounds.
 
 **Acknowledgements**
-I received inspiration for this project from X
+I received inspiration for this project from 
