@@ -45,6 +45,6 @@ If this section grows too long, you may want to split it off into a separate fil
 **Content**
 The text for section Y was copied from the Wikipedia article Z
 **Media**
-The photos used in this site were obtained from ...
+The photos used in this site were obtained from Shopee, Shein, Taobao, Pinterest, Canva, and Google. None of these images belong to us.
 **Acknowledgements**
 I received inspiration for this project from X
