@@ -627,6 +627,41 @@ color: white;
   border-radius: 40px;
 }
 
+/* LEADERBOARD PAGE */
+.leaderboardcontainer{
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  background: url("events/event3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.leaderboard1{
+  position: relative;
+  font-size: 50px;
+  font-family: "Archivo Black", sans-serif;
+  color: white;
+}
+
+.leaderboard2{
+  position: relative;
+  top: 8em;
+  font-size: 50px;
+  font-family: "Archivo Black", sans-serif;
+  color: white;
+}
+
+.resultscontainer{
+  background-color: #a77fd5;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
 /* PRODUCTS PAGE */
 .cataloguecontainer {
   background-color: #a57dd6;
