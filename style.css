@@ -214,6 +214,14 @@ h2{
   font-size: 30px;
 }
 
+h4{
+  color: white;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+
 
 /* HOMEPAGE */
 /* NAV BAR */
@@ -527,6 +535,53 @@ nav ul li a:hover {
   color: white;
 }
 
+/* GIVEAWAY PAGE */
+.giveawaycontainer{
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    background: url("events/event2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.giveaway1{
+  text-align: left;
+  position: relative;
+  top:1em;
+  left: 1em;
+  font-size: 50px;
+  font-family: "Archivo Black", sans-serif;
+  color: white;
+}
+
+.giveaway2{
+  text-align: left;
+  position: relative;
+  top:1em;
+  left: 1em;
+  font-size: 50px;
+  font-family: "Archivo Black", sans-serif;
+  color: white;
+}
+
+
+.ticket{
+  background-color: #A77FD5;
+  justify-content: center;
+  text-align: center;
+  width: 400px;
+  position: relative;
+  top: 3em;
+  left: 35em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 40px;
+}
+
 /* PRODUCTS PAGE */
 .cataloguecontainer {
   background-color: #a57dd6;
@@ -625,6 +680,7 @@ nav ul li a:hover {
   padding-right: 40px;
 }
 
+/* LOYALTY PAGE */
 .tiercontainer {
   justify-content: center;
   text-align: center;
