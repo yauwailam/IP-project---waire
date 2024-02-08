@@ -242,6 +242,14 @@ nav ul li a:hover {
   font-size: 28px;
 }
 
+/* NAV BAR THAT GOES BACK */
+.backcontainer{
+  text-align: left;
+  background-color: black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 /* BANNER */
 .bannercontainer {
   justify-content: center;
@@ -351,6 +359,7 @@ nav ul li a:hover {
 .announcement{
   font-family: "Archivo Black", sans-serif;
   font-size: 30px;
+  color: black;
 }
 
 @media only screen and (max-width: 768px) {
@@ -546,6 +555,88 @@ nav ul li a:hover {
   padding-right: 40px;
 }
 
+.tiercontainer {
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  background: url("banners/loyaltybanner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  width: 100%;
+}
+
+.tier{
+  background-color: #715D98;
+  justify-content: center;
+  text-align: center;
+  width: 400px;
+  position: relative;
+  top: 8em;
+  left: 34em;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  border-radius: 40px;
+}
+
+.tierinfo{
+  font-family: "Archivo Black", sans-serif;
+  color: white;
+  font-size: 22px;
+}
+
+.othertiers{
+  color: white;
+  font-family: "Archivo Black", sans-serif;
+  text-align: center;
+  font-size: 20px;
+  padding-right: 40px;
+  position: relative;
+  top:7em;
+}
+
+.perkscontainer{
+  background-color: #a77fd5;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.perks{
+  color: black;
+  font-family: "Archivo Black", sans-serif;
+  text-align: center;
+  font-size: 25px;
+  padding-left: 50px;
+}
+
+/* OTHER TIERS PAGE */
+.tierscontainer{
+  background-image: url('banners/loyaltybanner.jpg');
+  height: 1000px;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.ranking{
+    color: white;
+    font-family: "Archivo Black", sans-serif;
+    text-align: center;
+    font-size: 40px;
+  }
+
+.diamondtier{
+
+  background-size: 1300px;
+  height: 550px;
+  background-position-x: center;
+  flex-wrap: wrap;
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+}
 
 /* CART PAGE*/
 
