@@ -64,7 +64,6 @@ Announcement - allows users to be updated and alerted of any announcements at th
 >>>>>>> 640eb677925a145796e466306f17331372914f06
 Most of the features on the mobile app can be found on the website aswell. However, some features did not make the cut due to time constraint. One feature we would wish to implement is the game 'Fashion Frenzy' that is playable on the mobile app. It is a competition game that allows users to create outfits and submit them in order to win prizes and be top of the leaderboard.
 
-Another feature we wanted to add was
 
 <<<<<<< HEAD
 Technologies Used
@@ -91,17 +90,6 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-<<<<<<< HEAD
-Credits
-Credits to Shopee for inspiring us with some features like the daily log in.
-
-Media
-
-The photos used in this site were obtained from Shopee, Shein, Taobao, Pinterest, Canva, and Google. None of these images belong to us, however they were editted in Photoshop in order to remove their backgrounds.
-
-Acknowledgements
-I received inspiration for this project from
-=======
 **Credits**
 Credits to Shopee for inspiring us with some features like the daily log in.
 
@@ -111,4 +99,3 @@ The photos used in this site were obtained from Shopee, Shein, Taobao, Pinterest
 
 **Acknowledgements**
 I received inspiration for this project from 
->>>>>>> 640eb677925a145796e466306f17331372914f06
