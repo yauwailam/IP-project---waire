@@ -324,6 +324,8 @@ nav ul li a:hover {
   font-size: 35px;
 }
 
+
+
 /* DAILY LOG IN */
 
 .textcontainer {
@@ -436,6 +438,37 @@ nav ul li a:hover {
   .divider {
     padding: 20px;
   }
+}
+
+/* ABOUT PAGE */
+
+.aboutcontainer{
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.aboutus{
+  color:black;
+  font-family: "Archivo Black", sans-serif;
+  text-align: center;
+  font-size: 25px;
+}
+
+.iconcontainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.icons{
+    width: 150px;
+    height:150px;
+    padding-bottom: 15px;
+    border-radius: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /* EVENTS PAGE */
