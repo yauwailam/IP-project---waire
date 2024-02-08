@@ -687,6 +687,17 @@ color: white;
   border-radius: 40px;
 }
 
+.models {
+  justify-content: space-between;
+  display: flex;
+  padding: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.sketchfab-embed-wrapper {
+  height: 150px;
+}
 /* LEADERBOARD PAGE */
 .leaderboardcontainer{
   justify-content: center;
@@ -782,6 +793,15 @@ color: white;
   height: 170px;
 }
 
+.icons {
+  height: 150px;
+}
+
+.iconcontainer {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 
 /* REWARDS PAGE */
 .pointscontainer {
