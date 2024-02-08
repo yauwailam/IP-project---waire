@@ -438,6 +438,14 @@ nav ul li a:hover {
   padding-bottom: 50px;
 }
 
+.event1text{
+  text-align: right;
+  position: relative;
+  top:1em;
+  right: 3em;
+  font-size: 50px;
+}
+
 .event2{
   background-image: url('events/event2.png');
   background-size: 1300px;
@@ -448,6 +456,14 @@ nav ul li a:hover {
   padding-bottom: 50px;
 }
 
+.event2text{
+  text-align: left;
+  position: relative;
+  top:1em;
+  left: 3em;
+  font-size: 50px;
+}
+
 .event3{
   background-image: url('events/event3.png');
   background-size: 1300px;
@@ -455,6 +471,20 @@ nav ul li a:hover {
   background-position-x: center;
   flex-wrap: wrap;
   background-repeat: no-repeat;
+}
+
+.event3text{
+  text-align: center;
+  position: relative;
+  top:1em;
+  font-size: 50px;
+}
+
+.event3text1{
+  text-align: center;
+  position: relative;
+  top:7em;
+  font-size: 50px;
 }
 
 /* PRODUCTS PAGE */
