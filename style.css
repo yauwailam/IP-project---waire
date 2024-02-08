@@ -450,12 +450,23 @@ nav ul li a:hover {
 }
 
 .event1text{
-  text-align: right;
   position: relative;
   top:1em;
-  right: 3em;
+  left: 11.5em;
   font-size: 50px;
+  font-family: "Archivo Black", sans-serif;
+  color: white;
 }
+
+.event1text1{
+  position: relative;
+  top:3em;
+  left: 7em;
+  font-size: 50px;
+  font-family: "Archivo Black", sans-serif;
+  color: white;
+}
+
 
 .event2{
   background-image: url('events/event2.png');
@@ -471,8 +482,20 @@ nav ul li a:hover {
   text-align: left;
   position: relative;
   top:1em;
-  left: 3em;
+  right: 6.5em;
   font-size: 50px;
+  font-family: "Archivo Black", sans-serif;
+  color: white;
+}
+
+.event2text1{
+  text-align: left;
+  position: relative;
+  top:3em;
+  right: 11.5em;
+  font-size: 50px;
+  font-family: "Archivo Black", sans-serif;
+  color: white;
 }
 
 .event3{
@@ -485,17 +508,23 @@ nav ul li a:hover {
 }
 
 .event3text{
-  text-align: center;
   position: relative;
   top:1em;
+  left: 7em;
   font-size: 50px;
+  font-family: "Archivo Black", sans-serif;
+  color: white;
 }
+  
 
 .event3text1{
   text-align: center;
   position: relative;
-  top:7em;
+  top:8.5em;
+  right: 3em;
   font-size: 50px;
+  font-family: "Archivo Black", sans-serif;
+  color: white;
 }
 
 /* PRODUCTS PAGE */
