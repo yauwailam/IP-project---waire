@@ -6,17 +6,16 @@ This is our website for our Intergrated Studio Project. This is an eCommerce Fas
 
 **Design Process**
 
-The theme of this website is majority purple as it is our branding colour that allows it to be easily recognisable to users. Our branding i
+The theme of this website is majority purple as it is our branding colour that allows it to be easily recognisable to users. It is simplified into 3 colours, white, black and purple to make it visually pleasing. 
 
 The main audience for our website are users who are passionate about fashion, new users who are discovering the website, and users who are interested in the benefits and gamification aspects of the website.
 
 For those passionate about fashion, they are able to achieve their goal of buying clothes that suit their style as well as explore other aesthetics. For those who are new to the website, they are able to achieve their goal of discovering how to use the website and hopefully continue to use it. For those who are interested in the gamification aspects, they can achieve their goal by visiting the events page where games and leaderboards are held at. Those who are here for the rewards can visit the rewards page to achieve their goal of earning points and vouchers.
 
-As a u
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+As a user, I want to buy clothes, so I go to this website to purchase clothes at the Catalogue
+As a user, I want to get rewards, so that I can get items for cheaper and save money.
 
 This is our app prototype which this website took a lot of inspiration from : https://www.figma.com/file/QiWsULG3pt4TB2F6YDHgsS/AD_WaireClothes_Prototype?type=design&node-id=0%3A1&mode=design&t=ZmCG62XtvNoX2QGU-1
-As a user type, I want to perform an action, so that I can achieve a goal.
 
 **Existing Features**
 
