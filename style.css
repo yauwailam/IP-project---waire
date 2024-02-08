@@ -535,6 +535,51 @@ nav ul li a:hover {
   color: white;
 }
 
+/* GAME PAGE */
+.gamecontainer{
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  background: url("events/event1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.game1{
+text-align: right;
+position: relative;
+top:1em;
+right: 1.5em;
+font-size: 50px;
+font-family: "Archivo Black", sans-serif;
+color: white;
+}
+
+.game2{
+text-align: right;
+position: relative;
+top:1em;
+right: 1.5em;
+font-size: 50px;
+font-family: "Archivo Black", sans-serif;
+color: white;
+}
+
+.instructionscontainer{
+  background-color: #a77fd5;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.instructions{
+  color: black;
+  padding-bottom: 15px;
+}
+
 /* GIVEAWAY PAGE */
 .giveawaycontainer{
     justify-content: center;
