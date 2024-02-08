@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("giveawaybanner.jpg") no-repeat;
+  background: url("events/event3.png") no-repeat;
   background-size: cover;
   margin: 0;
   font-family: "Archivo Black", sans-serif; 
@@ -87,6 +87,12 @@
   text-decoration: underline;
 }
 
+#tryagn {
+  display:none;
+  color: white;
+}
+
+
 /*Sign Up*/
 .wrapper1 {
   width: 420px;
@@ -143,6 +149,11 @@
   font-size: 16px;
   font-weight: 600;
   background: #3b1f5a;
+}
+
+#nonuser {
+  display:none;
+  color: white;
 }
 
 /* EVERY PAGE */
@@ -674,6 +685,7 @@ nav ul li a:hover {
   display: flex;
   width: 100%;
   margin-bottom: 30px;
+  height: 530px;
 }
 
 .sidebar {
@@ -704,16 +716,77 @@ nav ul li a:hover {
   font-size: 25px;
 }
 
-.cartITEM {
-  font-size: 25px;
+
+
+.checkout  {
+  padding: 14px 40px;
+  border:none;
+  background-color: #3b1f5a;
+  border-radius: 3px;
+  color: white;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+  align-items: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
-#tryagn {
-  display:none;
-  color: white;
+.checkout:hover {
+  background-color: black;
 }
 
-#nonuser {
-  display:none;
+
+
+.cartimg {
+  height: 200px;
+  width: 200px;
+  
+}
+
+.citems {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+  padding: 10px 0px;
+  align-items: center;
+  
+}
+
+.popup {
+  align-items: center;
+}
+  
+.closebtn  {
+  padding: 14px 40px;
+  border:none;
+  background-color: #3b1f5a;
+  border-radius: 3px;
   color: white;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+  align-items: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.closebtn:hover {
+  background-color: black;
+}
+
+.popup {
+  text-align: center;
+  background: url("banners/rewardbanner.png") no-repeat ;
+  height: 440px;
+  width: 100%;
+  justify-content: center;
+  padding: 70px 0px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+.popup h2 {
+  padding-bottom: 30px;
 }
